@@ -1,5 +1,11 @@
+import React from 'react';
+import styled from '@emotion/styled';
 import logo from './logo.svg';
 import './App.css';
+
+const Box = styled.p`
+  background-color: white;
+`;
 
 function App() {
   return (
@@ -15,7 +21,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Box>Learn React</Box>
         </a>
       </header>
     </div>
